@@ -1,0 +1,9 @@
+import yappi
+
+yappi.start()
+
+StarTracker_10_deg.py
+
+print 'Rendimiento de codigo'
+yappi.print_stats() # Mostramos las stats de ejecucion
+yappi.stop() # Paramos la monitorizacion de yappi
